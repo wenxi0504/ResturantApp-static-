@@ -234,7 +234,7 @@ color:#333;
 }
 
 .speciality .box-container .box:hover .content{
-  transform: translateY(100%);
+  transform: translateX(100%);
 }
 
 /* popular section */
@@ -356,7 +356,7 @@ color:#333;
 }
 
 .gallery .box-container .box:hover .content{
-   top:0;
+  top:0;
 }
 
 

@@ -356,7 +356,7 @@ color:#333;
 }
 
 .gallery .box-container .box:hover .content{
-   top:0;
+  transform: translateY(100%);
 }
 
 
