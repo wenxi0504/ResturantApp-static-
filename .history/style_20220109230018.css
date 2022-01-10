@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
---red:#ff3838;
+--red:blue;
 }
  /* match everything */
 *{
@@ -106,7 +106,6 @@ section{
   flex: 1 1 40rem;
 }
 
-/* image floating upside-down */
 .home .image img{
   width:100%;
   padding:1rem;
@@ -133,7 +132,6 @@ color:#333;
   padding:1rem 0;
 }
 
-/* order button */
 .btn{
   display: inline-block;
   padding:.8rem 3rem;
@@ -146,26 +144,6 @@ color:#333;
   overflow: hidden;
   z-index: 0;
   margin-top: 1rem;
-}
-
-.btn::before{
-  content: '';
-  position: absolute;
-  top:0; right: 0;
-  width:0%;
-  height:100%;
-  background:var(--red);
-  transition: .3s linear;
-  z-index: -1;
-}
-
-.btn:hover::before{
-  width:100%;
-  left:0;
-}
-
-.btn:hover{
-  color:#fff;
 }
 
 
