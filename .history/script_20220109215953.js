@@ -2,7 +2,6 @@ let menu= document.querySelector('#menu-bar');
 let navbar=document.querySelector('.navbar');
 
 menu.onclick=()=>{
-    // 'fa-time' is "X" icon
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
 }

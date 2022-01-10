@@ -19,9 +19,9 @@
 
 /* the part that the user choose to highlight */
 *::selection{
-    background:var(--red);
+    background: var(--red);
     color:#fff;
-  }
+}
 
 html{
     font-size: 62.5%;
@@ -66,9 +66,9 @@ header .logo i{
 
 header .navbar a{
     font-size: 2rem;
-    margin-left: 2rem;
+    margin-left:2rem;
     color:#666;
-  }
+}
 
 header .navbar a:hover{
    
@@ -125,7 +125,7 @@ header .navbar a:hover{
       top:100%; left: 0; right:0;
       background: #f7f7f7;
       border-top: .1rem solid rgba(0,0,0,.1);
-      clip-path: polygon(0 0, 100% 0, 100% 0%, 0 0);
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
   
     header .navbar.active{
@@ -143,7 +143,6 @@ header .navbar a:hover{
     }
   
   }
-  
   
   @media(max-width:450px){
   

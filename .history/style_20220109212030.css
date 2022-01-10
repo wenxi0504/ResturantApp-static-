@@ -10,7 +10,6 @@
     padding:0;
     box-sizing:border-box;
     outline:none;
-    border:none;
     text-decoration: none;
     /* text 大小写 */
     text-transform: capitalize;
@@ -19,9 +18,9 @@
 
 /* the part that the user choose to highlight */
 *::selection{
-    background:var(--red);
-    color:#fff;
-  }
+    background: var(--red);
+    color:#fff
+}
 
 html{
     font-size: 62.5%;
@@ -34,22 +33,16 @@ body{
     background: #f7f7f7;
 }
 
-section{
-    padding: 2rem 9%;
-}
-
 header{
     position:fixed;
-    top:0; 
-    left:0;
-    right: 0;
+    top:0; left:0;right: 0;
     z-index:1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background:#fff;
     padding:2rem 9%;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,1);
+    box-shadow: 0 .5rem, 1rem, rgba(0,0,0,1);
 
 }
 
@@ -66,9 +59,9 @@ header .logo i{
 
 header .navbar a{
     font-size: 2rem;
-    margin-left: 2rem;
+    margin-left:2rem;
     color:#666;
-  }
+}
 
 header .navbar a:hover{
    
@@ -96,7 +89,7 @@ header .navbar a:hover{
 
 
 /* media queries for different devices */
-
+/* media queries  */
 
 @media(max-width:991px){
 
@@ -125,7 +118,7 @@ header .navbar a:hover{
       top:100%; left: 0; right:0;
       background: #f7f7f7;
       border-top: .1rem solid rgba(0,0,0,.1);
-      clip-path: polygon(0 0, 100% 0, 100% 0%, 0 0);
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
   
     header .navbar.active{
@@ -139,11 +132,9 @@ header .navbar a:hover{
       border:.2rem solid rgba(0,0,0,.1);
       border-left:.5rem solid var(--red);
       background:#fff;
-     
     }
   
   }
-  
   
   @media(max-width:450px){
   
@@ -152,5 +143,4 @@ header .navbar a:hover{
     }
   
     .order .row form .inputBox input{
-      width:100%;}
-    }
+      width:100%;
