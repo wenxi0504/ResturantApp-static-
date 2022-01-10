@@ -234,7 +234,7 @@ color:#333;
 }
 
 .speciality .box-container .box:hover .content{
-  transform: translateY(100%);
+  transform: translateX(100%);
 }
 
 

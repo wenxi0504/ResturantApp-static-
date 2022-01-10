@@ -185,7 +185,7 @@ color:#333;
 .speciality .box-container{
   display: flex;
   /* Make flexbox elements break when necessary */
-  flex-wrap: wrap;
+  
   gap:1.5rem;
 }
 
